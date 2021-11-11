@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es5",
+            "es6"
+        ],
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true
+    },
+    "include": [
+        "**/*"
+    ],
+    "exclude": [
+        "./dist"
+    ]
+}
