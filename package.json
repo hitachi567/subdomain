@@ -4,6 +4,7 @@
     "description": "middleware for handle request from subdomain",
     "main": "./src/index.ts",
     "scripts": {
+        "build": "tsc",
         "start": "ts-node .",
         "dev": "ts-node-dev --respawn --transpile-only ."
     },
