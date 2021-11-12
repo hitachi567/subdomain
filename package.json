@@ -1,9 +1,10 @@
 {
     "name": "@hitachi567/subdomain",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "middleware for handle request from subdomain",
     "main": "./src/index.ts",
     "scripts": {
+        "build": "tsc",
         "start": "ts-node .",
         "dev": "ts-node-dev --respawn --transpile-only ."
     },
