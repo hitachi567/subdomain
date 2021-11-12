@@ -1,6 +1,6 @@
 {
     "name": "@hitachi567/subdomain",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "middleware for handle request from subdomain",
     "main": "./src/index.ts",
     "scripts": {
