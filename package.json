@@ -1,11 +1,11 @@
 {
     "name": "@hitachi567/subdomain",
-    "version": "0.0.1",
+    "version": "0.0.2-0",
     "description": "middleware for handle request from subdomain",
     "main": "./src/index.ts",
     "scripts": {
         "rimraf": "./node_modules/rimraf/bin.js",
-        "build:clean" : "rimraf ./dist",
+        "build:clean": "rimraf ./dist",
         "build": "npm run build:clean && tsc",
         "start": "node ./dist/index.js",
         "dev": "ts-node-dev --respawn --transpile-only ."
